@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c292d1ff7e645be88f93499b0efb861" Name="Diagram1">
+        <EntityTypeShape EntityType="PPModel.Department" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.Employee" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.Reason" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.Role" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.Statement" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.Status" Width="1.5" PointX="3.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PPModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="PPModel.Employee_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="PPModel.Statement_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="PPModel.Employee_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="PPModel.Statement_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="PPModel.Statement_fk1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
